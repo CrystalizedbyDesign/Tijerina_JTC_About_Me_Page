@@ -1,35 +1,49 @@
 * {
-    margin: 300 auto;
-    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+
 nav {
     background-color: #418aef;
     text-align: right;
-    padding-right: 10px;
-    overflow: hidden;
+    padding-right: 0.5rem 1rem;
 }
 a {
     color: #0d039b;
-    padding: 14px 16px;
     display: inline-block;
+    text-decoration: none;
+    padding-right: 0.5rem;
 }
-h1, h2{
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
     text-align: center;
-    color: #0d039b;
-}
-h3 {
     color: #0d039b;
 }
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    margin: 0 auto;
+    width: 150px;
     border-radius: 50%;
 }
+body { 
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 900px;
+    padding: 1rem;
+}
 p {
-    text-align: center;
+    text-align: left;
     font-size: 18px;
-    margin: 20px;
+}
+.interests-skills {
+    display: flex;
+    gap: 2rem;  /* Optional: adds space between the two sections */
+}
+.interests, .skills {
+    flex: 1;  /* Each section takes up equal space */
+    padding: 1rem;
+    border: 1px solid #0d039b;
+    border-radius: 8px;
 }
