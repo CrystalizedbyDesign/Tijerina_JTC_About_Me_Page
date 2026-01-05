@@ -1,0 +1,35 @@
+* {
+    margin: 300 auto;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #418aef;
+    text-align: right;
+    padding-right: 10px;
+    overflow: hidden;
+}
+a {
+    color: #0d039b;
+    padding: 14px 16px;
+    display: inline-block;
+}
+h1, h2{
+    text-align: center;
+    color: #0d039b;
+}
+h3 {
+    color: #0d039b;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 50%;
+}
+p {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px;
+}
