@@ -35,6 +35,16 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Home Page Header styles */
+#homeHeader, .Welcome {
+    text-align: center;
+    color: whitesmoke;
+    padding: 2rem 0;
+    background-image: url('images/matrix-blue-background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 body {
     margin: 0 auto;
     max-width: 900px;
